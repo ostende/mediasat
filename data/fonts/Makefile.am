@@ -4,6 +4,7 @@
 #
 installdir = $(datadir)/fonts
 
-dist_install_DATA = *.ttf \
-                    *.otb \
-                    *.otf
+
+EXTRA_DIST = *.ttf \
+             *.otb \
+             *.otf
