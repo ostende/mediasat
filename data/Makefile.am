@@ -1,5 +1,6 @@
 SUBDIRS = countries fonts extensions keymaps skin_default rc_models hw_info weather_icons
 
+
 dist_pkgdata_DATA = \
 	encoding.conf \
 	prev.png \
@@ -9,8 +10,17 @@ dist_pkgdata_DATA = \
 	freesat.t2 \
 	iso-639-3.pck \
         keymap.ntr \
-	*.xml
-
+        keymap.xml \
+	menu.xml \
+	rcpositions.xml \
+	setup.xml \
+	skin.xml \
+	skin_display.xml \ 
+	startwizard.xml \
+	timezone.xml \
+        unicable.xml
+	
+	
 if HAVE_TEXTLCD
 dist_pkgdata_DATA += skin_text.xml
 else
