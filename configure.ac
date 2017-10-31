@@ -233,11 +233,6 @@ include/Makefile
 lib/Makefile
 lib/base/eenv.cpp
 lib/python/Makefile
-lib/python/Components/Makefile
-lib/python/Components/Converter/Makefile
-lib/python/Components/Renderer/Makefile
-lib/python/Components/Sources/Makefile
-lib/python/Screens/Makefile
 lib/python/Plugins/Makefile
 lib/python/Plugins/SystemPlugins/CableScan/Makefile
 lib/python/Plugins/SystemPlugins/FastScan/Makefile
@@ -275,7 +270,6 @@ lib/python/Plugins/SystemPlugins/DiseqcTester/meta/Makefile
 lib/python/Plugins/SystemPlugins/Hotplug/Makefile
 lib/python/Plugins/SystemPlugins/Hotplug/meta/Makefile
 lib/python/Plugins/SystemPlugins/Makefile
-lib/python/Plugins/SystemPlugins/MediaSatApi/Makefile
 lib/python/Plugins/SystemPlugins/TempFanControl/Makefile
 lib/python/Plugins/SystemPlugins/TempFanControl/meta/Makefile
 lib/python/Plugins/SystemPlugins/NetworkWizard/Makefile
@@ -298,7 +292,6 @@ lib/python/Plugins/SystemPlugins/Videomode/Makefile
 lib/python/Plugins/SystemPlugins/Videomode/meta/Makefile
 lib/python/Plugins/SystemPlugins/WirelessLan/Makefile
 lib/python/Plugins/SystemPlugins/WirelessLan/meta/Makefile
-lib/python/Tools/Makefile
 po/Makefile
 main/Makefile
 tools/Makefile
